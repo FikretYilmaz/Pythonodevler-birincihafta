@@ -1,0 +1,13 @@
+ocak = mart = mayis = temmuz = agustos = ekim = aralik = 31 
+nisan = haziran = eylul = kasim = 30 
+subat = 28
+print("""**************************\n*Yakit Hesaplama Programi*\n**************************
+	""")
+kmBasinaYakilan = input("Lutfen Aracinizin Gunluk Olarak KM Basina Yaktigi Benzin Miktarini Litre Olarak Giriniz.")
+gidilenYol = input("Lutfen Gunluk Olarak Gittiginiz Ortalama Yol Uzunlugunu KM olarak Giriniz.")
+donem = input("Lutfen Hesaplamak Istediginiz Ayi Kucuk Harflerle Yaziniz")
+yakitTutari =input("Lutfen Yakit Maliyetini £ Euro Cinsinden Yaziniz")
+ay = eval(donem)
+gunlukMaliyet = float(kmBasinaYakilan)*float(gidilenYol)*float(yakitTutari)
+aylikToplamMaliyet = float(kmBasinaYakilan)*float(gidilenYol)*float(yakitTutari)*ay
+print("Gunluk Yakit Maliyetiniz: ",gunlukMaliyet,"Euro,",donem,"Ayi Maliyetiniz: ",aylikToplamMaliyet,"Euro'dur.\n"+"Yillik Maliyetiniz:",gunlukMaliyet*365,sep=" ")
