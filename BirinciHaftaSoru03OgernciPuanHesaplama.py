@@ -1,0 +1,10 @@
+dosya = open('ogrenciNotHesaplama.txt','w')
+isim = input("Lutfen Isminizi Giriniz")
+soyad = input("Lutfen Soyadinizi Giriniz")
+vize = int(input("Lutfen Vize Notunuzu Giriniz"))
+final = int(input("Lutfen Final Notunuzu Giriniz"))
+ders = int(input("Lutfen 20 Hafta Suresince Girdiginiz Ders Sayisini Giriniz"))
+ortalama = ((vize*30 + final*50 + ders*5*20)/100)
+print(isim,soyad," isimli ogrencimizin puan ortalamasi: ",ortalama," olarak heasplanmistir.",file=dosya)
+dosya.close()
+

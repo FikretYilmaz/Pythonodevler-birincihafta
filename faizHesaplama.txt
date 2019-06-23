@@ -1,0 +1,8 @@
+Toplam Faiz Tutari :
+400.0
+Aylik Faiz Tutari : 
+33.333333333333336
+Gunluk Ortalama Faiz Tutari :
+1.095890410958904
+Toplam Para Tutari :
+1400.0
